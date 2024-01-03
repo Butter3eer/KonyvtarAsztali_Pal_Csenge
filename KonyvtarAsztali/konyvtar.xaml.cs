@@ -34,6 +34,7 @@ namespace KonyvtarAsztali
             else
             {
                 MessageBox.Show("A csatlakozás vagy beolvasás közben hiba történt", "", MessageBoxButton.OK, MessageBoxImage.Error);
+                Application.Current.Shutdown();
             }
         }
 
